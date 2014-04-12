@@ -1,0 +1,29 @@
+// DetektorDCC.idl : type library source for Detektor DCC.exe
+
+// This file will be processed by the MIDL compiler to produce the
+// type library (DetektorDCC.tlb).
+
+[ uuid(87799A37-0FD0-415F-95A5-8C38E82CCC8A), version(1.0) ]
+library DetektorDCC
+{
+	importlib("stdole32.tlb");
+	importlib("stdole2.tlb");
+
+	//  Primary dispatch interface for CDetektorDCCDoc
+	
+	[ uuid(7B060F60-2EC4-4668-9BF3-9539D31B6E7C) ]
+	dispinterface IDetektorDCC
+	{
+		properties:
+			
+		methods:
+	};
+
+	//  Class information for CDetektorDCCDoc
+	
+	[ uuid(7A5A4DA4-F051-4981-B99D-CC06B3FFEFDE) ]
+	coclass DetektorDCC
+	{
+		[default] dispinterface IDetektorDCC;
+	};
+};

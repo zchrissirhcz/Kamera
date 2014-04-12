@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Windows">
+      <UniqueIdentifier>{4fcd1571-c7ef-4c48-a249-da7f60195663}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utils">
+      <UniqueIdentifier>{a4f7b24e-9a94-4619-afdb-fa6f51c1beb3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Camera">
+      <UniqueIdentifier>{1f5e9e58-a2e9-4493-b970-d82dd93498cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Windows">
+      <UniqueIdentifier>{c9790c5b-5336-4342-a30c-e4f8a0e22bcc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Camera">
+      <UniqueIdentifier>{cfe4123e-a4db-4367-91b3-27ad064fd7f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Source Files\ImageProcessing">
+      <UniqueIdentifier>{e23b2fd6-7fd2-4929-a1e0-7dcbbe5e1b4a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ImageProcessing">
+      <UniqueIdentifier>{3b4bb733-e1a4-45ca-97e9-7f4a89349ec5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Windows\Utils">
+      <UniqueIdentifier>{d29e74a5-04a4-4612-9988-7ed254b30867}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CameraDialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgProxy.cpp">
+      <Filter>Source Files\Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="Kamera.cpp">
+      <Filter>Source Files\Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="KameraDlg.cpp">
+      <Filter>Source Files\Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files\Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\utils\FileUtils.cpp">
+      <Filter>Source Files\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\utils\PGM.cpp">
+      <Filter>Source Files\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\utils\SimpleGraphic.cpp">
+      <Filter>Source Files\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\utils\SimpleUtils.cpp">
+      <Filter>Source Files\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\camera\VideoCapture.cpp">
+      <Filter>Source Files\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\image_processing\ImageProcessing.cpp">
+      <Filter>Source Files\ImageProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="ClickableStatic.cpp">
+      <Filter>Source Files\Windows</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Midl Include="Kamera.idl">
+      <Filter>Source Files\Windows</Filter>
+    </Midl>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CameraDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgProxy.h">
+      <Filter>Header Files\Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="Kamera.h">
+      <Filter>Header Files\Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files\Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files\Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\utils\FileUtils.h">
+      <Filter>Header Files\Windows\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\utils\MemoryUtils.h">
+      <Filter>Header Files\Windows\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\utils\PGM.h">
+      <Filter>Header Files\Windows\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\utils\SimpleGraphic.h">
+      <Filter>Header Files\Windows\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\utils\simpleutils.h">
+      <Filter>Header Files\Windows\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\camera\consts.h">
+      <Filter>Header Files\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\camera\structs.h">
+      <Filter>Header Files\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\camera\VideoCallback.h">
+      <Filter>Header Files\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\camera\VideoCapture.h">
+      <Filter>Header Files\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\camera\qedit.h">
+      <Filter>Header Files\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\image_processing\ImageProcessing.h">
+      <Filter>Header Files\ImageProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="KameraDlg.h">
+      <Filter>Header Files\Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="ClickableStatic.h">
+      <Filter>Header Files\Windows</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\Kamera.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Kamera.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Kamera.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
