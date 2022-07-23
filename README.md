@@ -14,6 +14,10 @@ Windows only。
 ![](Video_Resolution_Name_Explain.png)
 (https://support.google.com/youtube/answer/6375112?hl=zh-Hans&co=GENIE.Platform%3DDesktop#:~:text=%E6%8E%A8%E8%8D%90%E7%9A%84%E5%88%86%E8%BE%A8%E7%8E%87%E5%92%8C%E5%AE%BD%E9%AB%98%E6%AF%94&text=1080p%EF%BC%9A1920x1080,360p%EF%BC%9A640x360)
 
+注：Windows 系统内置的应用“相机”，也可以查看分辨率，也就是“设置->照片”:
+![](Windows_CameraApp_ImageSizes.png)
+可以看到和我们的 Kamera.exe 获取到的分辨率是一样的；Kamera.exe 对应的工程则提供了相应的代码.
+
 ## 自行编译
 原版工程获取自 https://github.com/martakuzak/ASOD1， 是 vs2010 工程。
 
