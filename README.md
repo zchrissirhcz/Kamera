@@ -18,6 +18,9 @@ Windows only。
 ![](Windows_CameraApp_ImageSizes.png)
 可以看到和我们的 Kamera.exe 获取到的分辨率是一样的；Kamera.exe 对应的工程则提供了相应的代码.
 
+注: Linux 下使用 v4l-utils 工具查看支持的分辨率:
+https://blog.csdn.net/weixin_41294183/article/details/117624588
+
 ## 自行编译
 原版工程获取自 https://github.com/martakuzak/ASOD1， 是 vs2010 工程。
 
