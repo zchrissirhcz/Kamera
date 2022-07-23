@@ -5,7 +5,7 @@ Windows only。
 
 ## 直接使用
 
-上传了编译好的 [Kamera/Release/Kamera.exe](Kamera/Release/Kamera.exe)。
+上传了编译好的 [Kamera.exe](Release/Kamera.exe)。
 
 ![](Kamera_GUI.png)
 
